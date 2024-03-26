@@ -245,7 +245,7 @@ GROUP BY
 ORDER BY 
 	c.nome ASC
 	
--- Quantidade de pedidos por clientes ordenado do maior para o menor
+-- Quantidade de pedidos por clientes ordenado do menor para o maior
 
 SELECT c.nome AS nome,
 COUNT(p.id) AS "Numero de pedidos"
